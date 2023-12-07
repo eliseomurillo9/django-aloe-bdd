@@ -8,6 +8,6 @@
         - name: setup Python
           uses: actions/setup-python@v4
         - name: install Dependence
-          run: python3 -m pip install flake8
+          run: python3 -m pip install flake8 flake8-bandit
         - name: run flake8
           run: flake8 .
